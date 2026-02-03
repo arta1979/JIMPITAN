@@ -1,0 +1,88 @@
+{
+    "name": "Sistem Jimpitan Digital",
+    "short_name": "JIMPITAN",
+    "description": "Aplikasi Manajemen Rotating Savings - Jimpitan Digital untuk Komunitas Pedesaan",
+    "start_url": "https://arta1979.github.io/JIMPITAN/",
+    "scope": "https://arta1979.github.io/JIMPITAN/",
+    "display": "standalone",
+    "background_color": "#F9FAFB",
+    "theme_color": "#D97706",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "https://arta1979.github.io/JIMPITAN/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https://arta1979.github.io/JIMPITAN/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https://arta1979.github.io/JIMPITAN/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "categories": ["finance", "productivity", "utilities"],
+    "screenshots": [
+        {
+            "src": "https://arta1979.github.io/JIMPITAN/screenshot1.png",
+            "sizes": "720x1280",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "https://arta1979.github.io/JIMPITAN/screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Setoran",
+            "short_name": "Setoran",
+            "description": "Buat setoran jimpitan",
+            "url": "https://arta1979.github.io/JIMPITAN/?tab=transaksi&type=setor",
+            "icons": [
+                {
+                    "src": "https://arta1979.github.io/JIMPITAN/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Penarikan",
+            "short_name": "Tarik",
+            "description": "Buat penarikan jimpitan",
+            "url": "https://arta1979.github.io/JIMPITAN/?tab=transaksi&type=tarik",
+            "icons": [
+                {
+                    "src": "https://arta1979.github.io/JIMPITAN/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Nasabah",
+            "short_name": "Nasabah",
+            "description": "Kelola daftar nasabah",
+            "url": "https://arta1979.github.io/JIMPITAN/?tab=nasabah",
+            "icons": [
+                {
+                    "src": "https://arta1979.github.io/JIMPITAN/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ]
+}
